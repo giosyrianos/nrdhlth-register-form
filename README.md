@@ -1,4 +1,4 @@
-# Nuxt Minimal Starter
+# Registration Form with Nuxt 3
 #### A client-side only rendered Nuxt 3 application that allows people to sign up for a product.Form contains fields for name, email and password which are required and provide errors in invalid inputs. The password field's visibility can be toggled with a button. After succesfull submission the user is redirected to "success" page.
 
 ### All the UI is based on Provet Cloud Design System ([https://provetcloud.design/])
