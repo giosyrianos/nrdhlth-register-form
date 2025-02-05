@@ -1,6 +1,12 @@
 <template>
-	<div>
-		<h1 class="n-typescale-xxl">Welcome to Nuxt</h1>
+	<div
+		class="n-grid-1 n-padding-l"
+	>
+		<ClientOnly fallback-tag="span" fallback="Loading form...">
+			<RegistrationForm
+				@submit-success="onFormSubmitted($event)"
+			/>
+		</ClientOnly>
 	</div>
 </template>
 
