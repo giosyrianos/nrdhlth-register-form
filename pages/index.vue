@@ -1,11 +1,13 @@
 <template>
 	<div
-		class="n-grid-1 n-padding-l"
+		class="n-grid-2 n-padding-l"
+		style="grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));width: 100%;"
 	>
 		<ClientOnly fallback-tag="span" fallback="Loading form...">
 			<RegistrationForm
 				@submit-success="onFormSubmitted($event)"
 			/>
+			<CardForm />
 		</ClientOnly>
 	</div>
 </template>
